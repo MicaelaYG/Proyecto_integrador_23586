@@ -1,0 +1,22 @@
+.cabecera{
+    background-color: #fba70c !important;
+}
+
+#idHeader{
+    background-color: #640cfb;
+}
+
+.main{
+    background-color:rgb(255, 0, 255);
+}
+
+.piePagina{
+    height: 600px;
+    background-image: url("../assets/img/footer.jpg");
+    background-image: url("../assets/img/montania.jpg");
+    background-size: auto;
+    background-repeat:repeat;
+    background-position:bottom;
+
+    
+}

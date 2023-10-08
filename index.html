@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Integrador front | Micaela Yamila Gonzalez</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./estilo.css"> 
+</head>
+
+<body>
+    <header>
+        <!-- las imagenes son etiquetas abiertas y en linea-->
+        <div class="navegacionFlex"> 
+            <div class="contenedorLogo">
+             <a href="index.html"> 
+            <img class="logo" src="./assets/img/codoacodo.png" alt="Logo Codo a Codo 4.0">      
+        </a>
+        <h2 class="conf">Conf. Bs.As.</h2>
+        </div>
+       <section class="contenedorNav">
+       
+        <!--etiqueta semantica encargada de la navegacion-->
+        <nav class="navegacion">
+            <!-- listas desordenadas -->
+            <ul class="listaNav">
+                <li class="listaItem"><a class="colorWhite linkNav" href="#conferencia">La conferencia</a></li>
+                <li class="listaItem"><a class="colorGris linkNav" href="#oradores">Los oradores</a></li>
+                <li class="listaItem"><a class="colorGris linkNav" href="#lugarFecha">El lugar y la fecha</a></li>
+                <li class="listaItem"><a class="colorGris linkNav" href="#formularioOrador">Conviértete en orador</a></li>
+                <li class="listaItem"><a class = "colorVerde linkNav" href="./pages/tickets.html">Comprar tickets</a></li>
+              
+            </ul>
+        </nav>
+       </section>
+        </div>
+        
+        
+        <!-- una seccion que tiene que tener un titulo, en este caso el principal del sitio web
+            va a ser una seccion que con css le vamos a poner una imagen de fondo
+         -->
+        <section id ="conferencia">
+          <div class="contenidoConferencia">
+            <h1 class="confBsAs">Conferencia Buenos Aires</h1>
+            <p class="textConf">La conferencia de tecnología más importante del mundo, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non cum delectus voluptatum? Reiciendis hic temporibus labore debitis! Laudantium, at? Praesentium voluptatum enim cumque quam dicta adipisci excepturi aliquid asperiores laborum?</p>
+            <a class="quieroSerOrador" href="quieroSer">Quiero ser orador</a>
+            <a class="comprarTickets" href="comprar">Comprar tickets</a>
+          </div> 
+        </section>
+    </header>
+    <main>
+       <section id ="oradores">
+         <h2 class="conoceOradores"><div class="conoceA">CONOCE A LOS</div>ORADORES</h2>
+         <div class="contenedorTarjeta">
+         <div class="tarjeta">
+            <img src="./assets/img/steve.jpg" alt="Imagen Steb job">
+            <h4 class="javaReact java">JavaScript</h4>
+            <h4 class="javaReact react">React</h4>
+            <h3>Steve Jobs</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, ut! Fuga, earum expedita! Reiciendis iusto, unde, consequatur aperiam sit ea eos mollitia, odio accusantium ducimus ut enim quae odit magni.</p>
+         </div>
+         <div class="tarjeta">
+            <img src="./assets/img/bill.jpg" alt="Imagen Bill Gates">
+            <h4 class="javaReact java">JavaScript</h4>
+            <h4 class="javaReact react">React</h4>
+            <h3>Bill Gates</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, ut! Fuga, earum expedita! Reiciendis iusto, unde, consequatur aperiam sit ea eos mollitia, odio accusantium ducimus ut enim quae odit magni.</p>
+         </div>
+         <div class="tarjeta">
+            <img src="./assets/img/ada.jpeg" alt="Imagen Ada ">
+            <h4 class="javaReact java">Negocios</h4>
+            <h4 class="javaReact react">Satartus</h4>
+            <h3>Ada Lovelace</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, ut! Fuga, earum expedita! Reiciendis iusto, unde, consequatur aperiam sit ea eos mollitia, odio accusantium ducimus ut enim quae odit magni.</p>
+         </div>
+        
+         </div>
+        
+      
+       <section id = "lugarFecha">
+       <div class="contenedorflexible">
+        <div class="imagenonolulu">
+
+        </div>
+        <div class="contenedorTexto">
+        <h2>Bs As - Octubre</h2>
+        <p> Buenos Aires es la provincia y localidad más grande del estado Argentina, en los Estados Unidos. Honolulu es la mas sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de las islas de Oahu, la ciudad y el condado de Honolulu han formado una ciudad- condado consolidada que cubre toda la ciudad (aproximadamente 60 km² de superficie).</p>
+        <a href="">Conoce más</a>
+       </div>
+    
+    </div>
+       
+
+       </section>
+
+       <section class="formularioOrador">
+        <h2 class="tituloOrador">Conviértete en orador</h2>
+        <p class="subTituloOrador"> Anótate como orador para dar una charla ignite. Cuéntanos de qué quiere hablar!</p>
+        <form action="">
+            <div class="planilla">
+                <!--<label for="name">Ingrese su nombre:</label>-->
+                <input type="text" id="name" name="nombre" placeholder="Nombre" required>
+                <!--  <label for="apellido">Ingrese su apellido:</label>-->
+                <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+            </div>
+            <!-- 
+            <div>
+                <input type="email" id="email" name="email" placeholder="Ingrese su Email" required>
+            </div>
+            <div>
+                <input type="password" id="pass" placeholder="contraseña" required>
+            </div>-->
+            <div>
+                <textarea name="comentario" id="comentario" cols="60" rows="5" placeholder="Sobre qué quieres hablar?"></textarea>
+                <p>Recuerda incluir un titulo para tu charla.</p>
+            </div>
+           
+            <div class="botonFormulario">
+               <!-- <input type="reset" value="Limpiar Formulario">-->
+                <input class="enviarFormulario" type="submit" value="Enviar Formulario">
+            </div>
+        </form> 
+
+    
+
+       </section>
+
+    </main>
+    <aside class="publicidad">
+        <!--COLOCAR PUBLICIDAD QUE NO ESTA EN LA MAQUETA PARA LA ENTREGA DEL PROYECTO INTEGRADOR-->
+        <p class="publicidadTexto">PUBLICIDAD</p>
+        <div class="publicidadYoutube">
+        <iframe width="300" src="https://www.youtube.com/embed/6cyKZGSG-1w?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="300"  src="https://www.youtube.com/embed/4Gcw27tgw_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="300"  src="https://www.youtube.com/embed/U3HsFcQbvXY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    </aside>
+   
+    <footer class="footer colorFondoGradiente altoContenedor ">
+      
+        <a href="https://www.whatsapp.com/" target="_blank"></a> 
+       
+       <nav class="navegacionFooter">
+            <ul class="listFoote">
+                <li class="listaFooter"><a class="linkFooter" href="">Preguntas Frecuentes</a></li>
+                <li class="listaFooter"><a class="linkFooter" href="">Contactos</a></li>
+                <li class="listaFooter"><a class="linkFooter" href="">prensa</a></li>
+                <li class="listaFooter"><a class="linkFooter" href="">Conferencia</a></li>
+                <li class="listaFooter"><a class="linkFooter" href="">Terminos y condiciones</a></li>
+                <li class="listaFooter"><a class="linkFooter" href="">Privacidad</a></li>
+                <li class="listaFooter"><a class="linkFooter" href="">Estudiantes</a></li>
+            </ul>
+        </nav>
+
+   
+            <p>wsp</p>
+         </a>
+    </footer>
+    
+</body>
+</html>

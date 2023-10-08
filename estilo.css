@@ -1,0 +1,261 @@
+*{
+    margin:0;
+    padding:0;  
+    box-sizing: border-box;
+  }
+body{
+    padding: 10px;
+}
+/*header .listaItem{
+    list-style: none;
+    display: inline;
+}*/
+
+.navegacionFlex{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(53,58,64); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+       .conf{ 
+        color: white
+    }
+      .contenedorLogo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .logo{
+        width: 100px;
+    
+    }
+   .navegacion{
+        .listaNav{ 
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+             .listaItem{
+                padding-right: 20px;
+             
+                 .linkNav{
+                    text-decoration: none;
+                 }
+                 .colorWhite{ 
+                    color: white;
+                }
+                 .colorGris{
+                     color: rgb(155,156,160);
+                    }
+                   .colorVerde{
+                     color: rgb(40,167,69);
+                    }
+             }
+        
+       }
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+#conferencia {
+    height: 600px;
+    background-image:  url(./assets/img/ba1.jpg); opacity: calc(80%);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:bottom;
+    display: flex;
+    text-align: right;
+    padding-top: 200px;
+   
+    
+   
+     .confBsAs{ 
+     /*background-color: aqua;*/
+     color: white;
+     margin-right: 10%;
+
+     } 
+      .textConf{
+       /* background-color: rgb(46, 16, 151);*/
+        color: white;
+        margin-right: 10%;
+        padding-left: 900px;
+    }
+    .quieroSerOrador{
+        margin-right: 5%;
+      
+        border: 2px solid white;
+        padding-top:2px;
+        padding-bottom: 2px;
+        padding-left: 2px;
+        padding-right: 2px;
+        text-decoration: none;
+        color: white;
+    }
+    .comprarTickets{
+        text-decoration: none;
+        margin-right: 10%;
+        background-color:  green;
+        border: 2px; 
+        border-radius: 10px;
+        color: white;
+    }
+}
+
+
+
+
+    .conoceOradores{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .conoceA{
+        font-size: 13px;
+        font-weight: normal;
+    }
+
+
+
+.contenedorTarjeta{
+    /* background-color:gray;*/
+     width: 80%;
+     margin:20px auto;
+     text-align: left;
+     .tarjeta{
+     display:inline-block;
+     width: 30%;
+    /*height:300px;*/
+     padding:5px;
+     border:1px solid grey;
+    }
+    .javaReact{
+        display:inline-block;
+    } 
+    .java{
+        background-color: #fec106;
+        border: 3px solid #fec106;
+        border-radius: 10px;
+    }
+    .react{
+        background-color: #17a2b7;
+        border: 3px solid #17a2b7;
+        border-radius: 10px;
+    }
+ }
+ 
+ 
+ 
+ .tarjeta img{
+     width: 100%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .contenedorflexible{
+      
+        display: flex;
+        flex-direction: column-reverse;
+        .imagenonolulu{
+            width: 100%;
+            height: 60vh;
+            background-image: url("./assets/img/honolulu.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            }
+            .contenedorTexto{
+                background-color: gray;
+                width: 100%;
+                height: 50vh;
+                text-align: left;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content:space-evenly;
+                line-height: 1.5;
+        
+            }
+    }
+
+    
+  .formularioOrador{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content:space-evenly;
+                line-height: 1.5;
+                .botonFormulario{
+                    text-align: center;
+                }
+                .enviarFormulario{
+                    /*border: 2px solid green*/
+                    background-color: green;
+                    padding-top:10px;
+                    padding-right: ;
+                    padding-left: 390px;
+                    color: white;
+                }
+                }
+    
+  
+    .publicidad{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-evenly;
+        line-height: 5;
+        
+        .publicidadYoutube{
+            display: flex;
+            flex-direction: row;
+            padding-bottom: 20px;
+           
+        }
+       
+    }
+
+.footer{
+    padding-top:20px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+   background-image: linear-gradient(to right, #1c3844, #1c3f4f, #1b455a, #1b4c65, #1d5271);
+  
+     .listFoote {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+     }
+      .linkFooter {
+        text-decoration: none;
+        color: white;
+      }
+    
+    }
